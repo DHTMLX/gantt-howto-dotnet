@@ -7,6 +7,6 @@ Implementing backend for dhtmlxGantt using ASP.NET WebAPI 2.
 
 - MS VisualStudio 2013+
 
-###Tutorial
+### Tutorial
 
-A complete tutorial here https://docs.dhtmlx.com/gantt/desktop__how_to_start.html
+A complete tutorial here https://docs.dhtmlx.com/gantt/desktop__howtostart_dotnet.html
