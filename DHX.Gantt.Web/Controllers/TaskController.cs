@@ -31,7 +31,7 @@ namespace DHX.Gantt.Web.Controllers
                 .Find(id);
         }
 
-        private void _UpdateOrders(Task updatedTask, string orderTarget)/*!*/
+        private void _UpdateOrders(Task updatedTask, string orderTarget)
         {
             int adjacentTaskId;
             var nextSibling = false;
@@ -60,9 +60,9 @@ namespace DHX.Gantt.Web.Controllers
             updatedTask.SortOrder = startOrder;
 
             var updateOrders = db.Tasks
-                .Where(t => t.Id != updatedTask.Id)
-                .Where(t => t.SortOrder >= startOrder)
-                .OrderBy(t => t.SortOrder);
+             .Where(t => t.Id != updatedTask.Id)
+             .Where(t => t.SortOrder >= startOrder)
+             .OrderBy(t => t.SortOrder);
 
             var taskList = updateOrders.ToList();
 
@@ -120,9 +120,9 @@ namespace DHX.Gantt.Web.Controllers
                 db.SaveChanges();
             }
 
-            return Ok(new 
-            { 
-                action = "deleted" 
+            return Ok(new
+            {
+                action = "deleted"
             });
         }
 

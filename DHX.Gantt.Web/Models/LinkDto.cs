@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace DHX.Gantt.Web.Models
+﻿namespace DHX.Gantt.Web.Models
 {
     public class LinkDto
     {
