@@ -23,11 +23,12 @@
             // initiating data loading
             gantt.load("/api/data");
             // initializing dataProcessor
-            var dp = new gantt.dataProcessor("/api/");
+            const dp = gantt.createDataProcessor({
+                url: "/api/",
+                mode: "REST"
+            });
             // and attaching it to gantt
             dp.init(gantt);
-            // setting the REST mode for dataProcessor
-            dp.setTransactionMode("REST");
         });
     </script>
 </head>

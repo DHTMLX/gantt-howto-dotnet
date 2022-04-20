@@ -16,6 +16,7 @@ namespace DHX.Gantt.Web.Models
                     Text = "Project #2",
                     StartDate = DateTime.Today.AddDays(-3),
                     Duration = 18,
+                    SortOrder = 1,
                     Progress = 0.4m,
                     ParentId = null
                 },
@@ -25,6 +26,7 @@ namespace DHX.Gantt.Web.Models
                     Text = "Task #1",
                     StartDate = DateTime.Today.AddDays(-2),
                     Duration = 8,
+                    SortOrder = 2,
                     Progress = 0.6m,
                     ParentId = 1
                 },
@@ -34,6 +36,7 @@ namespace DHX.Gantt.Web.Models
                     Text = "Task #2",
                     StartDate = DateTime.Today.AddDays(-1),
                     Duration = 8,
+                    SortOrder = 3,
                     Progress = 0.6m,
                     ParentId = 1
                 }
