@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace DHX.Gantt.Web.Models
 {
@@ -14,7 +11,11 @@ namespace DHX.Gantt.Web.Models
         public decimal progress { get; set; }
         public int? parent { get; set; }
         public string type { get; set; }
-        public bool open{ get { return true; } set { } }
+        public bool open
+        {
+            get { return true; }
+            set { }
+        }
         public string target { get; set; }
 
         public static explicit operator TaskDto(Task task)
@@ -33,12 +34,13 @@ namespace DHX.Gantt.Web.Models
 
         public static explicit operator Task(TaskDto task)
         {
-
             return new Task
             {
                 Id = task.id,
                 Text = task.text,
-                StartDate = DateTime.Parse(task.start_date, System.Globalization.CultureInfo.InvariantCulture),
+                StartDate = DateTime.Parse(
+                    task.start_date,
+                    System.Globalization.CultureInfo.InvariantCulture),
                 Duration = task.duration,
                 ParentId = task.parent,
                 Type = task.type,

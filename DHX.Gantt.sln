@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHX.Gantt.Web", "DHX.Gantt.Web\DHX.Gantt.Web.csproj", "{13E5F83E-DB4A-49D0-A1AE-014908F4BB2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHX.Gantt.Web", "DHX.Gantt.Web\DHX.Gantt.Web.csproj", "{7CBF7646-F4A0-4A2F-B64F-ADBC5A8A6EAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13E5F83E-DB4A-49D0-A1AE-014908F4BB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13E5F83E-DB4A-49D0-A1AE-014908F4BB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13E5F83E-DB4A-49D0-A1AE-014908F4BB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13E5F83E-DB4A-49D0-A1AE-014908F4BB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBF7646-F4A0-4A2F-B64F-ADBC5A8A6EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBF7646-F4A0-4A2F-B64F-ADBC5A8A6EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBF7646-F4A0-4A2F-B64F-ADBC5A8A6EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBF7646-F4A0-4A2F-B64F-ADBC5A8A6EAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {963BE93B-B10A-4416-8994-091A43A0515F}
+		SolutionGuid = {64C98E55-8970-48CA-8917-E038B9174711}
 	EndGlobalSection
 EndGlobal

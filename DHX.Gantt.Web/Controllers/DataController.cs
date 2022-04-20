@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Web.Http;
-using DHX.Gantt.Web;
+﻿using System.Web.Http;
 using DHX.Gantt.Web.Models;
 
 namespace DHX.Gantt.Web.Controllers
